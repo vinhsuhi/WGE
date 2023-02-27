@@ -48,6 +48,8 @@ pip install -r requirements.txt
 ## Experiments
 ### Training and Testing
 ```
-python main.py --dataset codex-s --lr 0.0005 
+python main.py --dataset codex-s --lr 0.0005 --beta 0.2 --emb_dim 256
+python main.py --dataset codex-m --lr 0.0005 --beta 0.2 --emb_dim 256
+python main.py --dataset codex-l --lr 0.0001 --beta 0.2 --emb_dim 256
 ```
 
