@@ -30,9 +30,8 @@ Details of the model architecture and experimental results can be found in [our 
 ## Getting Started
 
 ### Datasets
-We use [CoDEx](https://github.com/tsafavi/codex) which is a new, challenging knowledge graph completion dataset to evaluate our model. Please download the dataset and save it in `data/`. 
-
-Please remember to cite the corresponding papers if you use these datasets.
+LitWD, CodEx and FB15k237 datasets are stored in data.zip. 
+Extract the zip file before running the code
 
 ### Installation:
 ```
