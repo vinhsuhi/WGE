@@ -31,7 +31,7 @@ Details of the model architecture and experimental results can be found in [our 
 
 ### Datasets
 LitWD, CodEx and FB15k237 datasets are stored in data.zip. 
-Extract the zip file before running the code
+Please xtract the zip file before running the code.
 
 ### Installation:
 ```
