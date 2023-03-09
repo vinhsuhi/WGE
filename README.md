@@ -36,7 +36,7 @@ Please xtract the zip file before running the code.
 ### Installation:
 ```
 # clone the repo
-git clone https://github.com/VinAIResearch/WGE.git
+git clone https://github.com/vinhsuhi/WGE.git
 cd WGE
 
 # install dependencies
