@@ -10,19 +10,19 @@
 
 # Two-view Graph Neural Networks for Knowledge Graph Completion
 
-We introduce a novel GNN-based knowledge graph embedding model for Knowledge Graph Completion, named WGE, to capture entity-focused graph structure and relation-focused graph structure. In particular, given the knowledge graph, WGE builds a single undirected entity-focused graph that views entities as nodes. In addition, WGE also constructs another single undirected graph from relation-focused constraints, which views entities and relations as nodes. WGE then proposes a new architecture of utilizing two vanilla GNNs directly on these two single graphs to better update vector representations of entities and relations, followed by a weighted score function to return the triple scores.  
+We present an effective graph neural network (GNN)-based knowledge graph embedding model, which we name WGE, to capture entity- and relation-focused graph structures. Given a knowledge graph, WGE builds a single undirected entity-focused graph that views entities as nodes. WGE also constructs another single undirected graph from relation-focused constraints, which views entities and relations as nodes. WGE then proposes a GNN-based architecture to better learn vector representations of entities and relations from these two single entity- and relation-focused graphs. WGE feeds the learned entity and relation representations into a weighted score function to return the triple scores for knowledge graph completion. Experimental results show that WGE outperforms strong baselines on seven benchmark datasets for knowledge graph completion.  
 
 <img src="./figs/model.png" width="800">
 
 
-Details of the model architecture and experimental results can be found in [our following paper](https://arxiv.org/pdf/2112.09231.pdf).
+Details of the model architecture and experimental results can be found in [our following paper](https://arxiv.org/abs/2112.09231):
 
 ```
-@article{tong2021two,
-  title={Two-view Graph Neural Networks for Knowledge Graph Completion},
-  author={Tong, Vinh and Nguyen, Dai Quoc and Phung, Dinh and Nguyen, Dat Quoc},
-  journal={arXiv preprint arXiv:2112.09231},
-  year={2021}
+@inproceedings{wge,
+    title     = {{Two-view Graph Neural Networks for Knowledge Graph Completion}},
+    author    = {Vinh Tong and Dai Quoc Nguyen and Dinh Phung and Dat Quoc Nguyen},
+    booktitle = {Proceedings of the 19th Extended Semantic Web Conference},
+    year      = {2023}
 }
 ```
 **Please CITE** our paper whenever our model implementation is used to help produce published results or incorporated into other software.
