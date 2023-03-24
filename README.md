@@ -21,7 +21,7 @@ Details of the model architecture and experimental results can be found in [our 
 @inproceedings{wge,
     title     = {{Two-view Graph Neural Networks for Knowledge Graph Completion}},
     author    = {Vinh Tong and Dai Quoc Nguyen and Dinh Phung and Dat Quoc Nguyen},
-    booktitle = {Proceedings of the 19th Extended Semantic Web Conference},
+    booktitle = {Proceedings of the 20th Extended Semantic Web Conference},
     year      = {2023}
 }
 ```
